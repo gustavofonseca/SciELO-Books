@@ -91,5 +91,5 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
-    'scielo_livros.catalogo',
+    'scielo_livros.catalogue',
 )

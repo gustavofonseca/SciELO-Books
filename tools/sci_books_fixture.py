@@ -1,4 +1,5 @@
 from csv2json import csv2json
+import json
 
 container = []
 
@@ -17,4 +18,4 @@ for i, item in enumerate(csv2json('banco_dados_livros.csv')):
     container.append(dict_livro)
     container.append(dict_editora)
 
-print container
+json.dump(container, open('initial_data.json', 'w'))
