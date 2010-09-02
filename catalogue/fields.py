@@ -1,5 +1,5 @@
 from django.db.models.fields.files import ImageField, ImageFieldFile
-from PIL import Image
+import Image
 import os
 
 def _add_thumb(s):
