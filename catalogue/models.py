@@ -40,7 +40,7 @@ class Book(models.Model):
     status = models.IntegerField(max_length=1, choices=STATUS_CHOICES, default=1)
     
     def __unicode__(self):
-        return self.titulo
+        return self.title
         
     class Meta:
         ordering = ['title']
